@@ -42,14 +42,14 @@ const Navbar = () => {
 
     const navItems = [
         { name: 'Home', href: '/' },
-        { name: 'Projects', href: '/projects' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Contact', href: '/contact' },
+        // { name: 'Projects', href: '/' },
+        // { name: 'Blog', href: '/' },
+        // { name: 'Contact', href: '/' },
     ];
 
     return (
         <header 
-            className={`sticky top-0 z-999 px-2 sm:px-12 w-full transition-all shadow-md duration-300 ${
+            className={`sticky top-0 z-999 px-2 sm:px-6 w-full transition-all shadow-md duration-300 ${
                 scrolled ? 
                 'bg-background/75 dark:bg-background/85 shadow-md backdrop-blur-lg' : 
                 'bg-background/40 dark:bg-background/30 backdrop-blur-md'
@@ -61,7 +61,7 @@ const Navbar = () => {
                     <div className="w-10 h-10 flex items-center justify-center bg-primary/10 dark:bg-primary/20 rounded-lg shadow-sm group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-all duration-300">
                         <Code className="h-5 w-5 text-primary" />
                     </div>
-                    <span className="font-bold text-xl tracking-tight">ZaDev</span>
+                    <span className="font-bold text-xl tracking-tight">Coding Skill-UP</span>
                 </Link>
 
                 {/* Navigation and Theme Toggle - Now grouped on the right */}
@@ -125,7 +125,7 @@ const Navbar = () => {
                                     <div className="w-10 h-10 flex items-center justify-center bg-primary/10 dark:bg-primary/20 rounded-lg">
                                         <Code className="h-5 w-5 text-primary" />
                                     </div>
-                                    <span className="font-bold text-xl">ZaDev</span>
+                                    <span className="font-bold text-xl">Coding Skill-UP</span>
                                 </div>
                                 
                                 <div className="flex flex-col space-y-5 justify-center items-center">

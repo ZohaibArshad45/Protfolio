@@ -1,4 +1,5 @@
 import MianHero from "@/components/hero/MianHero";
+import { CardHoverEffectDemo } from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           solutions, from web apps to automation tools. 
         </p>
         <div className="mt-8">
-          {/* <Projects/> */}
+          {/* <CardHoverEffectDemo/> */}
         </div>
       </section>
     </main>
